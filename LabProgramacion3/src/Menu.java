@@ -75,7 +75,7 @@ public class Menu {
                             }
                         } while (nota < 0 || nota > 100);
                     
-                    
+                    suma+=nota;
                     
                     
                     
@@ -97,7 +97,7 @@ public class Menu {
     
     
     }
-    }
+    
 
         
 
