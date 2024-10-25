@@ -76,9 +76,13 @@ public class Menu {
                         } while (nota < 0 || nota > 100);
                     
                     suma+=nota;
+                    if (nota > maximoNota) {
+                            maximoNota = nota;
+                        }
                     
-                    
-                    
+                     if (nota < minimoNota) {
+                            minimoNota = nota;
+                        }
                     }
                     
                     }
