@@ -85,7 +85,14 @@ public class Menu {
                         }
                     }
                     
-                    }
+                    double promedio=suma/cantNotas;
+    
+    
+    
+    
+    
+    
+    }
     
     
     
