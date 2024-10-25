@@ -58,12 +58,44 @@ public class Menu {
             if (cantNotas <= 0) {
                System.out.println("La cantidad debe ser positiva.");
             }
+             
+            }while (cantNotas <= 0);
+                    
+                 double suma = 0;
+                    double maximoNota = 0;  
+                    double minimoNota = 100;  
+
+                    for (int j = 1; j <= cantNotas; j++) {
+                        double nota;
+                        do {
+                            System.out.print("Nota #" + j + ": ");
+                            nota = datos.nextDouble();
+                            if (nota < 0 || nota > 100) {
+                                System.out.println("La nota tiene que estar dentro de 0 a 100.");
+                            }
+                        } while (nota < 0 || nota > 100);
                     
                     
                     
                     
                     
                     }
+                    
+                    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    }
+    
+    
+    
+    
     }
     }
 
