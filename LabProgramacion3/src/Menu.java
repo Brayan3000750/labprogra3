@@ -55,7 +55,7 @@ public class Menu {
             do{
             System.out.println("Ingrese la cantidad de notas que quiera");    
             cantNotas=datos.nextInt();
-            if (cantidadNotas <= 0) {
+            if (cantNotas <= 0) {
                System.out.println("La cantidad debe ser positiva.");
             }
                     
